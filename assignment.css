@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #f0e0b8;
+}
+.nav{
+    width: 60%;
+}
+.my-logo{
+    width: 40%;
+    padding-left: 100px;
+}
+
+.my-logo img{
+    width: 90px;
+    height: 70px;
+}
+.nav-bar{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bar li{
+    padding-left: 81px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar img{
+    width: 25px;
+    height: 25px;
+}
+
+.containers{
+    display: flex;
+}
+.left-halfs {
+    width: 50%;
+    padding-left: calc((71vw - 1000px)/2);
+}
+.right-halfs{
+    padding-top: 115px;
+}
+.right-halfs h1{
+    color: #726c54;
+    font-size: 80px;
+    padding-bottom: 40px;
+    inline-size: 10px;
+}
+.right-halfs p{
+    inline-size: 750px;
+    color: #726c54;
+    font-size: 40px;
+}
+.button{
+    padding-top: 910px;
+    padding: 14px 68px;
+    font-size: 20px;
+    background: #726c54;
+    color: white;
+    border: none;
+    margin-top: 19px;
+}
+.second-row h1{
+   position: absolute;
+   margin-left: 802px;
+   margin-top: 2px;
+   font-size: 40px;
+   text-align: center;
+   padding: 5px 0;
+}
+.second-row p{
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 59px;
+    font-size: 20px;
+    width: 20%;
+    text-align: center;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 115px 0;
+    color: #726c54;
+    background-color: #f0e0b8;
+}
+.container{
+    display: flex;
+}
+.left-half {
+    width: 50%;
+    padding-left: calc((71vw - 1000px)/2);
+}
+.left-half img{
+    /* height: 20px; */
+    width: 50%;
+}
+.right-half{
+    padding-top: 30px;
+}
+.right-half h1{
+    color: #726c54;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+.right-half p{
+    inline-size: 750px;
+    color: #726c54;
+    font-size: 20px;
+}
+.button{
+    padding-top: 910px;
+    padding: 14px 68px;
+    font-size: 20px;
+    background: #726c54;
+    color: white;
+    border: none;
+}
+
