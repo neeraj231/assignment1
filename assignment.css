@@ -1,14 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-header{
+.wrapper {
     display: flex;
-    align-items: center;
-    padding: 10px 0;
-    background-color: #f0e0b8;
-}
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px; }
+.header {
+    background: #efe8b4; }
+    .site-header a {
+      color: #726f53;
+      font-weight: bold; }
+      .site-header a:hover {
+        color: #86855d; }
 .nav{
     width: 60%;
 }
@@ -22,6 +27,7 @@ header{
     height: 70px;
 }
 .nav-bar{
+    margin-top: 22px;
     list-style: none;
     display: flex;
     width: 100%;
@@ -39,6 +45,9 @@ header{
     text-decoration: none;
     color: black;
 }
+.nav-bar li a:hover {
+    background-color: blue
+  }
 
 .nav-bar img{
     width: 25px;
@@ -50,9 +59,10 @@ header{
 }
 .left-halfs {
     width: 50%;
-    padding-left: calc((71vw - 1000px)/2);
+    padding-left: calc((54vw - 1000px)/2);
 }
 .right-halfs{
+    padding-left: 100px;
     padding-top: 115px;
 }
 .right-halfs h1{
@@ -74,6 +84,9 @@ header{
     color: white;
     border: none;
     margin-top: 19px;
+}
+.button:hover{
+    background-color: blue
 }
 .second-row h1{
    position: absolute;
@@ -104,13 +117,13 @@ header{
 }
 .left-half {
     width: 50%;
-    padding-left: calc((71vw - 1000px)/2);
+    padding-left: calc((55vw - 1000px)/2);
 }
 .left-half img{
-    /* height: 20px; */
-    width: 50%;
+    height: 571px;
 }
 .right-half{
+    padding-left: 100px;
     padding-top: 30px;
 }
 .right-half h1{
